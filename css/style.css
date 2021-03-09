@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+/* Borders for position */
+.top-menu
+/*, .top-menu:nth-child(n) :nth-child(n + 1):nth-child(-n + 3) */ {
+  border: 2px dashed red;
+}
+/* Top-Menu */
+.top-menu {
+  background-color: rgb(39, 39, 39);
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Top-Menu LOGO */
+.logo img {
+  width: 6.5vw;
+  height: 8vh;
+}
+/* Top-Menu SEARCH-BAR */
+.search-bar {
+  width: 55vw;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.search-bar input {
+  width: 30em;
+  height: 2.5rem;
+  background-color: rgb(27, 27, 27);
+  color: silver;
+  padding-left: 8px;
+  border: 1.5px solid rgb(58, 58, 58);
+}
+.search-bar button {
+  width: 4rem;
+  height: 2.5rem;
+  background-color: rgb(58, 58, 58);
+  border: 1.5px solid rgb(58, 58, 58);
+}
+.search-bar a {
+  height: 2.5rem;
+  color: silver;
+}
