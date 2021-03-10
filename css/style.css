@@ -296,4 +296,14 @@
   width: 85vw;
   height: 45vh;
   background-color: rgb(10, 10, 10);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  border: 1px dashed blue;
+  padding: 0 3rem;
+}
+.main-bottom div {
+  width: 12vw;
+  height: 18vh;
+  border: 1px dashed red;
 }
