@@ -269,6 +269,28 @@
   color: silver;
   font-weight: bold;
 }
+.middle-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.middle-bottom div {
+  width: 10vw;
+  height: 4.5vh;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.middle-bottom div a {
+  color: silver;
+  text-decoration: none;
+}
+.home {
+  border-bottom: 3px solid silver;
+}
+.middle-bottom div:hover {
+  background-color: rgb(224, 0, 0, 0.5);
+}
 /* main-content BOTTOM */
 .main-bottom {
   width: 85vw;
