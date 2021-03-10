@@ -299,11 +299,18 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   align-items: center;
-  border: 1px dashed blue;
   padding: 0 3rem;
 }
 .main-bottom div {
   width: 12vw;
-  height: 18vh;
-  border: 1px dashed red;
+  height: 20vh;
+  border: 1px solid rgb(73, 73, 73);
+}
+.main-bottom div p {
+  color: silver;
+  font-size: 0.7rem;
+}
+.main-bottom div img {
+  width: 11.85vw;
+  height: 14vh;
 }
