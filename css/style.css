@@ -153,7 +153,7 @@
 .side-top li div:hover,
 .side-middle li div:hover,
 .side-bottom li div:hover {
-  background-color: rgb(224, 0, 0);
+  background-color: rgb(224, 0, 0, 0.5);
 }
 /* main-content */
 .main-content {
@@ -164,16 +164,52 @@
   justify-content: flex-start;
   flex-direction: column;
 }
+/* main-content TOP */
 .main-top {
   width: 85vw;
   height: 26vh;
   background-color: rgb(66, 66, 66);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
+
+.main-top:nth-child(n) :nth-child(n + 1):nth-child(-n + 4) {
+  border: 1px dashed red;
+}
+.outside-left {
+  width: 16vw;
+  height: 25vh;
+}
+.outside-left img {
+  width: 16vw;
+}
+.inside-left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.inside-left p {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+.inside-left:nth-child(n) :nth-child(2) {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: bolder;
+}
+
+.inside-right img {
+  width: 5vw;
+}
+
+/* main-content MIDDLE */
 .main-middle {
   width: 85vw;
   height: 20vh;
   background-color: rgb(43, 43, 43);
 }
+/* main-content BOTTOM */
 .main-bottom {
   width: 85vw;
   height: 45vh;
